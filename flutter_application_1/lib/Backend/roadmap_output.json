@@ -1,0 +1,261 @@
+{
+    "topic": "dsa",
+    "duration": 15,
+    "progress": [
+        {
+            "day": 1,
+            "task": "Introduction to Data Structures and Algorithms: Learn about Big O notation, time and space complexity analysis. Cover basic array operations like insertion, deletion, and search.",
+            "quiz": [
+                {
+                    "question": "What is the time complexity of searching for an element in a sorted array using binary search?",
+                    "options": [
+                        "O(n)",
+                        "O(log n)",
+                        "O(n^2)",
+                        "O(1)"
+                    ],
+                    "answer": "O(log n)"
+                }
+            ],
+            "completed": false
+        },
+        {
+            "day": 2,
+            "task": "Arrays and Linked Lists: Deep dive into various types of arrays (static, dynamic) and linked lists (singly, doubly, circular). Implement basic operations on both data structures.",
+            "quiz": [
+                {
+                    "question": "What is the advantage of using a linked list over an array for insertions and deletions?",
+                    "options": [
+                        "Linked lists use less memory",
+                        "Linked lists have faster search times",
+                        "Linked lists do not require contiguous memory allocation",
+                        "Linked lists are easier to implement"
+                    ],
+                    "answer": "Linked lists do not require contiguous memory allocation"
+                }
+            ],
+            "completed": false
+        },
+        {
+            "day": 3,
+            "task": "Stacks and Queues: Understand the concepts of LIFO and FIFO. Implement stack and queue operations using arrays and linked lists. Explore applications like expression evaluation and BFS.",
+            "quiz": [
+                {
+                    "question": "Which data structure is used to implement Breadth-First Search (BFS)?",
+                    "options": [
+                        "Stack",
+                        "Queue",
+                        "Linked List",
+                        "Tree"
+                    ],
+                    "answer": "Queue"
+                }
+            ],
+            "completed": false
+        },
+        {
+            "day": 4,
+            "task": "Trees: Introduction to tree terminology (root, node, leaf, etc.). Learn about different types of trees like binary trees, binary search trees, and AVL trees. Implement basic tree traversals (inorder, preorder, postorder).",
+            "quiz": [
+                {
+                    "question": "What is the inorder traversal of a binary search tree with elements 1, 2, and 3?",
+                    "options": [
+                        "1 2 3",
+                        "1 3 2",
+                        "2 1 3",
+                        "3 2 1"
+                    ],
+                    "answer": "1 2 3"
+                }
+            ],
+            "completed": false
+        },
+        {
+            "day": 5,
+            "task": "Heaps and Priority Queues: Understand the concept of heaps (min-heap and max-heap). Implement heap operations and learn how to use priority queues. Explore applications like heapsort.",
+            "quiz": [
+                {
+                    "question": "What is the time complexity of inserting an element into a heap?",
+                    "options": [
+                        "O(n)",
+                        "O(log n)",
+                        "O(n^2)",
+                        "O(1)"
+                    ],
+                    "answer": "O(log n)"
+                }
+            ],
+            "completed": false
+        },
+        {
+            "day": 6,
+            "task": "Hashing: Learn about hash tables, hash functions, and collision resolution techniques. Implement hash tables and explore applications like dictionaries and symbol tables.",
+            "quiz": [
+                {
+                    "question": "What is a common method for resolving collisions in a hash table?",
+                    "options": [
+                        "Linear probing",
+                        "Binary search",
+                        "Sorting",
+                        "Recursion"
+                    ],
+                    "answer": "Linear probing"
+                }
+            ],
+            "completed": false
+        },
+        {
+            "day": 7,
+            "task": "Graphs: Introduction to graph terminology (vertices, edges, directed/undirected graphs). Learn about graph representations (adjacency matrix, adjacency list). Implement basic graph traversals (BFS, DFS).",
+            "quiz": [
+                {
+                    "question": "Which graph traversal algorithm uses a stack?",
+                    "options": [
+                        "BFS",
+                        "DFS",
+                        "Both BFS and DFS",
+                        "Neither BFS nor DFS"
+                    ],
+                    "answer": "DFS"
+                }
+            ],
+            "completed": false
+        },
+        {
+            "day": 8,
+            "task": "Sorting Algorithms: Learn about various sorting algorithms like bubble sort, insertion sort, selection sort, merge sort, quicksort, and heapsort. Analyze their time and space complexities.",
+            "quiz": [
+                {
+                    "question": "Which sorting algorithm has an average time complexity of O(n log n)?",
+                    "options": [
+                        "Bubble sort",
+                        "Insertion sort",
+                        "Merge sort",
+                        "Selection sort"
+                    ],
+                    "answer": "Merge sort"
+                }
+            ],
+            "completed": false
+        },
+        {
+            "day": 9,
+            "task": "Searching Algorithms: Learn about linear search, binary search, and other searching techniques.  Practice implementing these algorithms in different scenarios.",
+            "quiz": [
+                {
+                    "question": "What is the prerequisite for performing a binary search on an array?",
+                    "options": [
+                        "The array must be sorted",
+                        "The array must be unsorted",
+                        "The array must contain only positive numbers",
+                        "The array must contain only negative numbers"
+                    ],
+                    "answer": "The array must be sorted"
+                }
+            ],
+            "completed": false
+        },
+        {
+            "day": 10,
+            "task": "Dynamic Programming: Introduction to dynamic programming concepts. Solve basic dynamic programming problems like Fibonacci sequence, knapsack problem, and longest common subsequence.",
+            "quiz": [
+                {
+                    "question": "What is the core idea behind dynamic programming?",
+                    "options": [
+                        "Divide and conquer",
+                        "Storing and reusing solutions to subproblems",
+                        "Brute-force search",
+                        "Greedy approach"
+                    ],
+                    "answer": "Storing and reusing solutions to subproblems"
+                }
+            ],
+            "completed": false
+        },
+        {
+            "day": 11,
+            "task": "**Graph Algorithms I:** Focus on Breadth-First Search (BFS) and Depth-First Search (DFS). Implement both algorithms iteratively and recursively. Learn about their applications in graph traversal, connected components, and cycle detection.",
+            "quiz": [
+                {
+                    "question": "Which graph traversal algorithm uses a queue data structure?",
+                    "options": [
+                        "BFS",
+                        "DFS",
+                        "A*",
+                        "Dijkstra's"
+                    ],
+                    "answer": "BFS"
+                }
+            ],
+            "completed": false
+        },
+        {
+            "day": 12,
+            "task": "**Graph Algorithms II:** Study Dijkstra's algorithm for finding the shortest paths in a weighted graph.  Implement Dijkstra's algorithm using a priority queue. Learn about its limitations (e.g., negative edge weights).",
+            "quiz": [
+                {
+                    "question": "Dijkstra's algorithm is primarily used for:",
+                    "options": [
+                        "Finding the shortest path",
+                        "Cycle detection",
+                        "Topological sorting",
+                        "Finding connected components"
+                    ],
+                    "answer": "Finding the shortest path"
+                }
+            ],
+            "completed": false
+        },
+        {
+            "day": 13,
+            "task": "**Graph Algorithms III:** Explore advanced graph algorithms like Bellman-Ford (handles negative weights) and Floyd-Warshall (all-pairs shortest paths). Compare and contrast these algorithms with Dijkstra's.  Practice implementing Bellman-Ford.",
+            "quiz": [
+                {
+                    "question": "Which algorithm can detect negative cycles in a graph?",
+                    "options": [
+                        "Dijkstra's",
+                        "Bellman-Ford",
+                        "BFS",
+                        "DFS"
+                    ],
+                    "answer": "Bellman-Ford"
+                }
+            ],
+            "completed": false
+        },
+        {
+            "day": 14,
+            "task": "**Dynamic Programming I:** Introduce the concept of dynamic programming. Solve classic problems like the Fibonacci sequence, longest common subsequence, and knapsack problem using both top-down (memoization) and bottom-up (tabulation) approaches.",
+            "quiz": [
+                {
+                    "question": "Dynamic programming is based on the principle of:",
+                    "options": [
+                        "Divide and conquer",
+                        "Overlapping subproblems",
+                        "Greedy approach",
+                        "Brute force"
+                    ],
+                    "answer": "Overlapping subproblems"
+                }
+            ],
+            "completed": false
+        },
+        {
+            "day": 15,
+            "task": "**Dynamic Programming II:**  Practice more complex dynamic programming problems.  Explore variations of the knapsack problem and problems involving string manipulation (e.g., edit distance).  Focus on identifying the optimal substructure and overlapping subproblems.",
+            "quiz": [
+                {
+                    "question": "Which of the following is NOT a characteristic of dynamic programming?",
+                    "options": [
+                        "Overlapping subproblems",
+                        "Optimal substructure",
+                        "Memoization or tabulation",
+                        "Always uses recursion"
+                    ],
+                    "answer": "Always uses recursion"
+                }
+            ],
+            "completed": false
+        }
+    ]
+}

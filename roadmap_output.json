@@ -1,0 +1,516 @@
+{
+    "topic": "sikhism history",
+    "duration": 30,
+    "progress": [
+        {
+            "day": 1,
+            "task": "Origins and early development of Sikhism (15th-16th century): Focus on the life and teachings of Guru Nanak Dev Ji, the founder of Sikhism, including his travels and key philosophical concepts like Ik Onkar (One God).",
+            "quiz": [
+                {
+                    "question": "What is the central core belief of Sikhism as taught by Guru Nanak?",
+                    "options": [
+                        "Reincarnation",
+                        "One God (Ik Onkar)",
+                        "Multiple Deities",
+                        "Ancestor Worship"
+                    ],
+                    "answer": "One God (Ik Onkar)"
+                }
+            ],
+            "completed": false
+        },
+        {
+            "day": 2,
+            "task": "The development of the Guruship: Learn about the subsequent nine Gurus and their contributions to the development of Sikhism. Focus on the evolution of Sikh doctrines, practices, and community.",
+            "quiz": [
+                {
+                    "question": "How many Gurus are there in Sikhism?",
+                    "options": [
+                        "7",
+                        "9",
+                        "10",
+                        "12"
+                    ],
+                    "answer": "10"
+                }
+            ],
+            "completed": false
+        },
+        {
+            "day": 3,
+            "task": "The formation of the Khalsa: Study the establishment of the Khalsa by Guru Gobind Singh Ji, the tenth Guru. Understand the significance of the five Ks and the concept of Sant-Sipahi (Saint-Soldier).",
+            "quiz": [
+                {
+                    "question": "Who founded the Khalsa?",
+                    "options": [
+                        "Guru Nanak",
+                        "Guru Arjan",
+                        "Guru Gobind Singh",
+                        "Guru Hargobind"
+                    ],
+                    "answer": "Guru Gobind Singh"
+                }
+            ],
+            "completed": false
+        },
+        {
+            "day": 4,
+            "task": "Sikhism under Mughal rule: Explore the period of Mughal persecution of Sikhs and the martyrdom of several Gurus. Understand the role of Sikh resistance and the development of a distinct Sikh identity.",
+            "quiz": [
+                {
+                    "question": "Which Mughal emperor ordered the execution of Guru Arjan Dev?",
+                    "options": [
+                        "Akbar",
+                        "Jahangir",
+                        "Shah Jahan",
+                        "Aurangzeb"
+                    ],
+                    "answer": "Jahangir"
+                }
+            ],
+            "completed": false
+        },
+        {
+            "day": 5,
+            "task": "The Sikh Empire: Learn about the rise of the Sikh Empire under Maharaja Ranjit Singh and its expansion across Northwest India.  Study its administration, military, and cultural achievements.",
+            "quiz": [
+                {
+                    "question": "Who is considered the founder of the Sikh Empire?",
+                    "options": [
+                        "Banda Singh Bahadur",
+                        "Hari Singh Nalwa",
+                        "Maharaja Ranjit Singh",
+                        "Jassa Singh Ahluwalia"
+                    ],
+                    "answer": "Maharaja Ranjit Singh"
+                }
+            ],
+            "completed": false
+        },
+        {
+            "day": 6,
+            "task": "The Anglo-Sikh Wars and the annexation of Punjab: Examine the causes and consequences of the Anglo-Sikh wars, leading to the annexation of the Sikh Empire by the British East India Company.",
+            "quiz": [
+                {
+                    "question": "How many Anglo-Sikh wars were fought?",
+                    "options": [
+                        "One",
+                        "Two",
+                        "Three",
+                        "Four"
+                    ],
+                    "answer": "Two"
+                }
+            ],
+            "completed": false
+        },
+        {
+            "day": 7,
+            "task": "Sikhism under British rule:  Study the impact of British rule on Sikh identity, religious practices, and social reforms. Learn about the Singh Sabha Movement and its role in reviving Sikh traditions.",
+            "quiz": [
+                {
+                    "question": "What was the main aim of the Singh Sabha Movement?",
+                    "options": [
+                        "To establish a separate Sikh state",
+                        "To reform Sikh practices and revive Sikh traditions",
+                        "To promote Sikhism globally",
+                        "To fight against the British"
+                    ],
+                    "answer": "To reform Sikh practices and revive Sikh traditions"
+                }
+            ],
+            "completed": false
+        },
+        {
+            "day": 8,
+            "task": "The Partition of India and its impact on Sikhs: Explore the traumatic events of the 1947 partition and the mass displacement and violence experienced by the Sikh community.",
+            "quiz": [
+                {
+                    "question": "In which year did the Partition of India take place?",
+                    "options": [
+                        "1945",
+                        "1947",
+                        "1949",
+                        "1951"
+                    ],
+                    "answer": "1947"
+                }
+            ],
+            "completed": false
+        },
+        {
+            "day": 9,
+            "task": "The Punjab insurgency: Study the period of militancy in Punjab during the 1980s and its impact on Sikh politics and society.",
+            "quiz": [
+                {
+                    "question": "Operation Blue Star, a controversial military operation, took place in which Sikh shrine?",
+                    "options": [
+                        "Akal Takht",
+                        "Harmandir Sahib (Golden Temple)",
+                        "Takht Sri Patna Sahib",
+                        "Takht Sri Hazur Sahib"
+                    ],
+                    "answer": "Harmandir Sahib (Golden Temple)"
+                }
+            ],
+            "completed": false
+        },
+        {
+            "day": 10,
+            "task": "Contemporary Sikhism: Learn about the current state of Sikhism globally, including its diaspora communities, challenges, and contributions to various fields.",
+            "quiz": [
+                {
+                    "question": "Which country has the largest Sikh population outside of India?",
+                    "options": [
+                        "United Kingdom",
+                        "Canada",
+                        "United States",
+                        "Australia"
+                    ],
+                    "answer": "Canada"
+                }
+            ],
+            "completed": false
+        },
+        {
+            "day": 11,
+            "task": "The Misls and the Rise of Ranjit Singh: Study the formation and activities of the Sikh Misls (confederacies) after the fall of the Mughal Empire. Focus on the emergence of Ranjit Singh and his unification of the Misls to establish the Sikh Empire.",
+            "quiz": [
+                {
+                    "question": "Which Misl did Ranjit Singh belong to?",
+                    "options": [
+                        "Sukerchakia Misl",
+                        "Kanhaiya Misl",
+                        "Bhangi Misl",
+                        "Ahluwalia Misl"
+                    ],
+                    "answer": "Sukerchakia Misl"
+                }
+            ],
+            "completed": false
+        },
+        {
+            "day": 12,
+            "task": "The Reign of Maharaja Ranjit Singh:  Examine the reign of Ranjit Singh (1799-1839), including his administrative reforms, military conquests, and religious tolerance policies.  Learn about the key figures in his court and the expansion of the Sikh Empire.",
+            "quiz": [
+                {
+                    "question": "Who was the prominent European general who helped modernize Ranjit Singh's army?",
+                    "options": [
+                        "Jean-Fran\u00e7ois Allard",
+                        "Claude Auguste Court",
+                        "Paolo Di Avitabile",
+                        "All of the above"
+                    ],
+                    "answer": "All of the above"
+                }
+            ],
+            "completed": false
+        },
+        {
+            "day": 13,
+            "task": "The Anglo-Sikh Wars: Study the causes, key battles, and consequences of the First Anglo-Sikh War (1845-1846) and the Second Anglo-Sikh War (1848-1849). Analyze the role of political intrigue and the eventual annexation of the Sikh Empire by the British East India Company.",
+            "quiz": [
+                {
+                    "question": "Which treaty marked the end of the First Anglo-Sikh War?",
+                    "options": [
+                        "Treaty of Lahore",
+                        "Treaty of Amritsar",
+                        "Treaty of Bhyroval",
+                        "Treaty of Gujarat"
+                    ],
+                    "answer": "Treaty of Lahore"
+                }
+            ],
+            "completed": false
+        },
+        {
+            "day": 14,
+            "task": "Sikhism under British Rule: Explore the social, religious, and political changes within the Sikh community during British rule.  Focus on the Singh Sabha Movement and its role in reforming and revitalizing Sikhism.",
+            "quiz": [
+                {
+                    "question": "What was a key objective of the Singh Sabha Movement?",
+                    "options": [
+                        "To promote Sikh education",
+                        "To remove superstitious practices",
+                        "To publish Sikh literature",
+                        "All of the above"
+                    ],
+                    "answer": "All of the above"
+                }
+            ],
+            "completed": false
+        },
+        {
+            "day": 15,
+            "task": "The Ghadar Movement and Early 20th Century:  Learn about the involvement of Sikhs in the Ghadar Movement, a revolutionary movement against British rule.  Understand the impact of World War I on the Sikh community and the rising nationalist sentiments.",
+            "quiz": [
+                {
+                    "question": "Where was the Ghadar Party headquartered?",
+                    "options": [
+                        "San Francisco",
+                        "London",
+                        "Delhi",
+                        "Amritsar"
+                    ],
+                    "answer": "San Francisco"
+                }
+            ],
+            "completed": false
+        },
+        {
+            "day": 16,
+            "task": "The Akali Movement and the Partition of India: Study the Akali Movement's struggle for control of Sikh Gurdwaras (temples) and its role in the Indian independence movement. Analyze the impact of the Partition of India in 1947 on the Sikh community, including the mass migration and violence.",
+            "quiz": [
+                {
+                    "question": "What was the main goal of the Akali Movement?",
+                    "options": [
+                        "Gaining control of Sikh shrines from corrupt mahants",
+                        "Establishing a separate Sikh state",
+                        "Joining the Indian National Congress",
+                        "Supporting the British Raj"
+                    ],
+                    "answer": "Gaining control of Sikh shrines from corrupt mahants"
+                }
+            ],
+            "completed": false
+        },
+        {
+            "day": 17,
+            "task": "The Punjab Suba Movement and the Creation of Punjab State: Examine the demand for a Punjabi-speaking state and the eventual formation of Punjab in 1966. Understand the political and linguistic factors that led to this reorganization of states in India.",
+            "quiz": [
+                {
+                    "question": "When was the Punjabi Suba (state) officially formed?",
+                    "options": [
+                        "1947",
+                        "1956",
+                        "1966",
+                        "1975"
+                    ],
+                    "answer": "1966"
+                }
+            ],
+            "completed": false
+        },
+        {
+            "day": 18,
+            "task": "The 1984 Anti-Sikh Riots: Study the events leading up to and the aftermath of the anti-Sikh riots in 1984, following the assassination of Prime Minister Indira Gandhi. Reflect on the impact of this tragic event on the Sikh community and the ongoing quest for justice.",
+            "quiz": [
+                {
+                    "question": "Who was the Prime Minister of India during the 1984 anti-Sikh riots?",
+                    "options": [
+                        "Indira Gandhi",
+                        "Rajiv Gandhi",
+                        "Jawaharlal Nehru",
+                        "Morarji Desai"
+                    ],
+                    "answer": "Indira Gandhi"
+                }
+            ],
+            "completed": false
+        },
+        {
+            "day": 19,
+            "task": "Contemporary Sikhism: Explore the current state of Sikhism globally, including its diaspora communities, challenges faced by Sikhs in different countries, and the ongoing dialogue on Sikh identity and its future.",
+            "quiz": [
+                {
+                    "question": "Which country outside India has one of the largest Sikh populations?",
+                    "options": [
+                        "Canada",
+                        "United Kingdom",
+                        "United States",
+                        "Australia"
+                    ],
+                    "answer": "Canada"
+                }
+            ],
+            "completed": false
+        },
+        {
+            "day": 20,
+            "task": "Review and Reflection: Review the material covered in the past ten days.  Consider the evolution of Sikhism through history and its impact on the world.  Reflect on the core values and principles of Sikhism and their relevance in the 21st century.",
+            "quiz": [
+                {
+                    "question": "Which of the following is NOT one of the five Ks of Sikhism?",
+                    "options": [
+                        "Kesh (uncut hair)",
+                        "Kara (steel bracelet)",
+                        "Kanga (wooden comb)",
+                        "Khanda (double-edged sword)"
+                    ],
+                    "answer": "Khanda (double-edged sword)"
+                }
+            ],
+            "completed": false
+        },
+        {
+            "day": 21,
+            "task": "The Misls and the Rise of Ranjit Singh: Study the formation and organization of Sikh Misls (confederacies) after the fall of the Mughal Empire. Focus on the emergence of Ranjit Singh and the unification of the Misls into the Sikh Empire.",
+            "quiz": [
+                {
+                    "question": "What were the Sikh Misls?",
+                    "options": [
+                        "Independent Sikh states",
+                        "Mughal armies",
+                        "Religious texts",
+                        "Types of swords"
+                    ],
+                    "answer": "Independent Sikh states"
+                }
+            ],
+            "completed": false
+        },
+        {
+            "day": 22,
+            "task": "The Reign of Maharaja Ranjit Singh: Explore the reign of Ranjit Singh (1799-1839), his administrative reforms, military conquests, and religious tolerance. Learn about the key figures of his court and the extent of his empire.",
+            "quiz": [
+                {
+                    "question": "Who unified the Sikh Misls into the Sikh Empire?",
+                    "options": [
+                        "Guru Nanak",
+                        "Banda Singh Bahadur",
+                        "Maharaja Ranjit Singh",
+                        "Hari Singh Nalwa"
+                    ],
+                    "answer": "Maharaja Ranjit Singh"
+                }
+            ],
+            "completed": false
+        },
+        {
+            "day": 23,
+            "task": "The Anglo-Sikh Wars: Examine the causes, key battles, and consequences of the First Anglo-Sikh War (1845-1846) and the Second Anglo-Sikh War (1848-1849). Understand the role of political intrigue and military strategy in the decline of the Sikh Empire.",
+            "quiz": [
+                {
+                    "question": "Which war resulted in the annexation of Punjab by the British East India Company?",
+                    "options": [
+                        "First Anglo-Sikh War",
+                        "Second Anglo-Sikh War",
+                        "Third Anglo-Sikh War",
+                        "First Anglo-Maratha War"
+                    ],
+                    "answer": "Second Anglo-Sikh War"
+                }
+            ],
+            "completed": false
+        },
+        {
+            "day": 24,
+            "task": "Sikhism Under British Rule: Analyze the impact of British rule on Sikh identity and religious practices. Study the Singh Sabha Movement and its role in reforming and revitalizing Sikhism.",
+            "quiz": [
+                {
+                    "question": "What was the Singh Sabha Movement?",
+                    "options": [
+                        "A political party",
+                        "A reform movement within Sikhism",
+                        "A military organization",
+                        "A literary society"
+                    ],
+                    "answer": "A reform movement within Sikhism"
+                }
+            ],
+            "completed": false
+        },
+        {
+            "day": 25,
+            "task": "The Ghadar Movement and Early 20th Century: Investigate the Ghadar Movement and the participation of Sikhs in the Indian independence movement.  Learn about the socio-political context of this era.",
+            "quiz": [
+                {
+                    "question": "What was the primary aim of the Ghadar Movement?",
+                    "options": [
+                        "Indian independence from British rule",
+                        "Religious reform",
+                        "Land redistribution",
+                        "Educational advancement"
+                    ],
+                    "answer": "Indian independence from British rule"
+                }
+            ],
+            "completed": false
+        },
+        {
+            "day": 26,
+            "task": "The Partition of India and its Impact on Sikhs: Study the tragic events of the Partition of India in 1947 and the immense suffering endured by the Sikh community. Explore the displacement, violence, and migration experienced during this period.",
+            "quiz": [
+                {
+                    "question": "Which two countries were created as a result of the Partition of India?",
+                    "options": [
+                        "India and Pakistan",
+                        "India and Bangladesh",
+                        "India and Nepal",
+                        "Pakistan and Bangladesh"
+                    ],
+                    "answer": "India and Pakistan"
+                }
+            ],
+            "completed": false
+        },
+        {
+            "day": 27,
+            "task": "The Punjab Suba Movement:  Examine the demand for a Punjabi-speaking state and the formation of Punjab in 1966. Learn about the political and linguistic factors that led to this reorganization.",
+            "quiz": [
+                {
+                    "question": "What was the main objective of the Punjabi Suba Movement?",
+                    "options": [
+                        "Creation of a separate Sikh nation",
+                        "Formation of a Punjabi-speaking state within India",
+                        "Merger of Punjab with Pakistan",
+                        "Establishment of a Sikh religious authority"
+                    ],
+                    "answer": "Formation of a Punjabi-speaking state within India"
+                }
+            ],
+            "completed": false
+        },
+        {
+            "day": 28,
+            "task": "The 1980s and Operation Blue Star:  Study the events leading up to Operation Blue Star in 1984, the assault on the Golden Temple, and its aftermath. Analyze the political and social consequences of this event.",
+            "quiz": [
+                {
+                    "question": "Where did Operation Blue Star take place?",
+                    "options": [
+                        "Golden Temple, Amritsar",
+                        "Jallianwala Bagh",
+                        "Akal Takht",
+                        "Harmandir Sahib"
+                    ],
+                    "answer": "Golden Temple, Amritsar"
+                }
+            ],
+            "completed": false
+        },
+        {
+            "day": 29,
+            "task": "The Sikh Diaspora: Explore the global spread of Sikhism and the establishment of Sikh communities around the world. Understand the challenges and contributions of the Sikh diaspora.",
+            "quiz": [
+                {
+                    "question": "Which country, outside of India, has one of the largest Sikh populations?",
+                    "options": [
+                        "Canada",
+                        "United States",
+                        "United Kingdom",
+                        "Australia"
+                    ],
+                    "answer": "Canada"
+                }
+            ],
+            "completed": false
+        },
+        {
+            "day": 30,
+            "task": "Contemporary Sikhism:  Examine current issues and challenges facing the Sikh community, including religious identity, social justice, and interfaith relations. Reflect on the future of Sikhism in the 21st century.",
+            "quiz": [
+                {
+                    "question": "What is the primary scripture of Sikhism?",
+                    "options": [
+                        "Guru Granth Sahib",
+                        "Dasam Granth",
+                        "Bhagavad Gita",
+                        "Quran"
+                    ],
+                    "answer": "Guru Granth Sahib"
+                }
+            ],
+            "completed": false
+        }
+    ]
+}
