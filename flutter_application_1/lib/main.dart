@@ -33,7 +33,7 @@ class MyApp extends StatelessWidget {
       // home: CommunityPage(userId: "QXyx9HP6SrXKefA7ZRmYgSog0L02"),
       // home: HomeScreen(),
       home: Splashscreen(),
-      routes: {'/home': (context) => HomeScreen()},
+      // routes: {'/home': (context) => HomeScreen()},
     );
   }
 }

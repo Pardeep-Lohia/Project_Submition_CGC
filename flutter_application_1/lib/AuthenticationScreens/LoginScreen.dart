@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:firebase_auth/firebase_auth.dart';
+import 'package:flutter_application_1/Screens/HomeScreenFinal.dart';
 import 'SignUp.dart';
 
 class LoginScreen extends StatefulWidget {
@@ -38,10 +39,20 @@ class _LoginScreenState extends State<LoginScreen> {
         password: _passwordController.text.trim(),
       );
 
-      print("Login Successful: UID = ${userCredential.user?.uid}");
+      String? uid = userCredential.user?.uid;
+      print("Login Successful: UID = $uid");
 
-      // Navigate to Home Screen
-      Navigator.of(context).pushReplacementNamed('/home');
+      // Navigate to Home Screen with UID
+      if (uid != null) {
+        Navigator.pushReplacement(
+          context,
+          MaterialPageRoute(
+            builder: (context) => HomeScreen(uid: uid),
+          ),
+        );
+      } else {
+        _showError("User ID is null");
+      }
     } on FirebaseAuthException catch (e) {
       _showError(e.message ?? "Login failed");
     } finally {
@@ -263,8 +274,7 @@ class _LoginScreenState extends State<LoginScreen> {
                     onPressed: () {
                       Navigator.pushReplacement(
                         context,
-                        MaterialPageRoute(
-                            builder: (context) => MultiStepForm()),
+                        MaterialPageRoute(builder: (context) => SignUpScreen()),
                       );
                     },
                     child: Text("Don't have an account yet? Sign Up"),

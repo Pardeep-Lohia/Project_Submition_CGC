@@ -1,6 +1,7 @@
 import 'dart:convert';
 import 'dart:io';
 
+import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:file_picker/file_picker.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
@@ -14,19 +15,16 @@ import 'package:percent_indicator/linear_percent_indicator.dart';
 import 'package:animated_text_kit/animated_text_kit.dart';
 
 class HomeScreen extends StatefulWidget {
+  final String uid;
+
+  const HomeScreen({Key? key, required this.uid}) : super(key: key);
+
   @override
   _HomeScreenState createState() => _HomeScreenState();
 }
 
 class _HomeScreenState extends State<HomeScreen> {
   int _selectedIndex = 0;
-
-  final List<Widget> _screens = [
-    HomeContentScreen(), // New Home Content
-    UploadScreen(),
-    ChatScreen(),
-    ProfileScreen(),
-  ];
 
   void _onItemTapped(int index) {
     setState(() {
@@ -36,6 +34,13 @@ class _HomeScreenState extends State<HomeScreen> {
 
   @override
   Widget build(BuildContext context) {
+    final List<Widget> _screens = [
+      HomeContentScreen(uid: widget.uid),
+      UploadScreen(uid: widget.uid),
+      ChatScreen(uid: widget.uid),
+      ProfileScreen(uid: widget.uid),
+    ];
+
     return Scaffold(
       backgroundColor: Colors.black87,
       body: _screens[_selectedIndex],
@@ -43,7 +48,7 @@ class _HomeScreenState extends State<HomeScreen> {
         backgroundColor: Colors.black,
         currentIndex: _selectedIndex,
         onTap: _onItemTapped,
-        items: [
+        items: const [
           BottomNavigationBarItem(
               icon: Icon(Icons.home, size: 32), label: 'Home'),
           BottomNavigationBarItem(
@@ -62,12 +67,46 @@ class _HomeScreenState extends State<HomeScreen> {
 }
 
 class HomeContentScreen extends StatefulWidget {
+  final String uid;
+  HomeContentScreen({Key? key, required this.uid}) : super(key: key);
   @override
   State<HomeContentScreen> createState() => _HomeContentScreenState();
 }
 
 class _HomeContentScreenState extends State<HomeContentScreen> {
   @override
+  Future<String?> getUserNameFromUID(String uid) async {
+    try {
+      DocumentSnapshot userDoc =
+          await FirebaseFirestore.instance.collection('Users').doc(uid).get();
+
+      if (userDoc.exists) {
+        return userDoc['UserName']; // or userDoc['name']
+      } else {
+        print("User not found");
+        return null;
+      }
+    } catch (e) {
+      print("Error fetching user name: $e");
+      return null;
+    }
+  }
+
+  String? name;
+
+  @override
+  void initState() {
+    super.initState();
+    loadUserName();
+  }
+
+  void loadUserName() async {
+    String? result = await getUserNameFromUID(widget.uid);
+    setState(() {
+      name = result;
+    });
+  }
+
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Colors.black87,
@@ -82,6 +121,13 @@ class _HomeContentScreenState extends State<HomeContentScreen> {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
+            Text(
+              "${name}",
+              style: TextStyle(
+                  color: Colors.white,
+                  fontSize: 22,
+                  fontWeight: FontWeight.bold),
+            ),
             Text(
               "Your Learning Roadmap:",
               style: TextStyle(
@@ -135,8 +181,8 @@ class _HomeContentScreenState extends State<HomeContentScreen> {
                   Navigator.push(
                     context,
                     MaterialPageRoute(
-                        builder: (context) => CommunityPage(
-                            userId: "LbuQm4OJMUMo6AeC96xgq8elHJH3")),
+                        builder: (context) =>
+                            CommunityPage(userId: widget.uid)),
                   );
                 },
                 child: Text("My Communities"),
@@ -239,6 +285,9 @@ class RoadmapCard extends StatelessWidget {
 // import 'package:flutter/material.dart';
 
 class UploadScreen extends StatefulWidget {
+  final String uid;
+  const UploadScreen({Key? key, required this.uid}) : super(key: key);
+
   @override
   _UploadScreenState createState() => _UploadScreenState();
 }
@@ -331,6 +380,9 @@ class _UploadScreenState extends State<UploadScreen> {
 }
 
 class ChatScreen extends StatefulWidget {
+  final String uid;
+  const ChatScreen({Key? key, required this.uid}) : super(key: key);
+
   @override
   _ChatScreenState createState() => _ChatScreenState();
 }
@@ -519,6 +571,9 @@ class _ChatScreenState extends State<ChatScreen> {
 }
 
 class ProfileScreen extends StatelessWidget {
+  final String uid;
+  const ProfileScreen({Key? key, required this.uid}) : super(key: key);
+
   final String userName = "Pardeep Lohia";
   final String email = "pardeeplohia7098@gmail.com";
   final int totalUploads = 24;
