@@ -24,7 +24,7 @@ CORS(app)
 
 # Initialize AI Model
 model = genai.GenerativeModel(
-    model_name="gemini-1.5-pro",
+    model_name="gemini-1.5-flash",
     system_instruction="You're a Roadmap generator for Tools, Technology, and Programming languages."
 )
 
