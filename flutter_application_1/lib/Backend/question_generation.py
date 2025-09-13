@@ -7,9 +7,11 @@ from flask_cors import CORS
 app = Flask(__name__)
 CORS(app)
 
-API_KEY = "AIzaSyCX5dXv2A8cuUn11G5GZEDM50yw_xiEZR0"  # Replace with your actual API key
-if API_KEY:
-    genai.configure(api_key=API_KEY)
+api_key = os.getenv("GOOGLE_API_KEY")
+
+if not api_key:
+   raise ValueError("API Key not found. Set GOOGLE_API_KEY in .env file")  # Replace with your actual API key
+
 
 def generate_mcq_gemini(topic, num_questions=5):
     prompt = f"""
@@ -28,7 +30,7 @@ def generate_mcq_gemini(topic, num_questions=5):
     Ensure the response is a valid JSON object. Do not include any additional text outside of the json block. Do not add any markdown code blocks.
     """
 
-    model = genai.GenerativeModel("gemini-1.5-pro")
+    model = genai.GenerativeModel("gemini-1.5-flash)
     response = model.generate_content(prompt)
 
     print("Raw API Response:", response.text)
